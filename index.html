@@ -56,8 +56,8 @@
 
     $('form').submit(function( event ) {
       event.preventDefault();
-      $.post( 'https://script.google.com/macros/s/AKfycby3m6a0xWJ0Asen8WRZ1rqzBm76xw7HWEpmQWmvUsQn0t1ngrnOG86KP7K5t6H_cImPkg/exec', $('form').serialize() );
       liff.closeWindow();
+      $.post( 'https://script.google.com/macros/s/AKfycby3m6a0xWJ0Asen8WRZ1rqzBm76xw7HWEpmQWmvUsQn0t1ngrnOG86KP7K5t6H_cImPkg/exec', $('form').serialize() );
     });
   </script>
 </body>
